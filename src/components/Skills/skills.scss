@@ -1,0 +1,41 @@
+.skills-main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vmax;
+  > div > h2 {
+    font-size: 35px;
+    color: rgb(233, 233, 233);
+  }
+  .progress-container {
+    width: 50%;
+    margin-top: 2vmax;
+
+    > div {
+      p {
+        font-size: 35px;
+      }
+      > h4 {
+        color: whitesmoke;
+        font-size: 1.8vmax;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-main-container {
+    margin: 4vmax;
+
+    .progress-container {
+      width: 100%;
+      margin-top: 2vmax;
+
+      > div {
+        p {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
