@@ -36,12 +36,6 @@
       }
     }
   }
-  ul > .threebars-end {
-    font-size: 3vmax;
-    cursor: pointer;
-    margin: 3vmax;
-  }
-
   .sidebar {
     display: flex;
     justify-content: center;
@@ -56,6 +50,12 @@
     top: 0;
     right: 0;
     z-index: 999;
+    .threebars-end {
+      font-size: 3vmax;
+      cursor: pointer;
+      margin: 3vmax;
+      // display: none;
+    }
     .threebars-end {
       color: black;
     }
@@ -176,12 +176,12 @@
   }
 }
 
-// @media screen and (max-width: 550px) {
-//     .sidebar {
-//       width: 100%;
-//     }
+// @media screen and (min-width: 650px) {
+//   .sidebar {
+//     display: none;
 
-//     .sidebar li {
-//       font-size: 3.5vmax;
+//     li {
+//       display: none;
 //     }
 //   }
+// }

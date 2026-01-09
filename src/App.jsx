@@ -6,6 +6,7 @@ import MyService from "./components/MyService/MyService.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import Project from "./components/Project/Project.jsx";
 import "./app.scss";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/services" element={<MyService />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Project" element={<Project />} />
       </Routes>
       <Footer />
     </Router>

@@ -56,7 +56,7 @@ const Header = () => {
             </Link>
           </ul>
 
-          <ul className="sidebar">
+          <ul className="sidebar" style={{ display: "none" }}>
             <GiCrossedSabres
               className="threebars-end"
               onClick={() => {
